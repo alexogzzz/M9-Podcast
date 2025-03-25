@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Podcast</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>SoundWaves</h1>
+                <p class="tagline">Tu podcast favorito</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="active">Inicio</a></li>
+                    <li><a href="#latest-episode">Episodios</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Bienvenidos a SoundWaves</h2>
+                    <p>Un podcast dedicado al apasionante mundo del motor, donde exploramos historias, novedades y curiosidades sobre coches, motos y todo lo relacionado con la velocidad y la ingeniería automotriz.</p>
+                    <a href="#episodes" class="btn">Escuchar ahora</a>
+                </div>
+                <div class="hero-image">
+                    <img src="../media/logo.webp" alt="Logo del podcast">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="latest-episode" class="latest-episode">
+        <div class="container">
+            <h2>Último episodio</h2>
+            <div class="episode-card featured">
+                <div class="episode-image">
+                    <img src="../media/logo.webp" alt="Imagen del episodio">
+                </div>
+                <div class="episode-content">
+                    <h3>Episodio 1: Victor Cepeda</h3>
+                    <p class="episode-date">Publicado: 21 de marzo, 2025</p>
+                    <p class="episode-description">En este primer episodio, hablaremos con Victor Cepeda sobre el mundo del motor.</p>
+                    <div class="audio-player">
+                        <audio controls>
+                            <source src="../media/PodcastEntero.mp3" type="audio/mpeg">
+                            Tu navegador no soporta el elemento de audio.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="episodes" class="episodes">
+        <div class="container">
+            <h2>Todos los episodios</h2>
+            <div class="episodes-grid">
+                <div class="episode-card">
+                    <div class="episode-image">
+                        <img src="../media/teorico.jpg" alt="Imagen del episodio">
+                    </div>
+                    <div class="episode-content">
+                        <h3>Carnet</h3>
+                        <p class="episode-date">21 de marzo, 2025</p>
+                        <p class="episode-description">Victor Cepeda nos habla sobre su experiencia con el carnet del coche.</p>
+                        <div class="audio-player">
+                            <audio controls>
+                                <source src="../media/carnet.mp3" type="audio/mpeg">
+                                Tu navegador no soporta el elemento de audio.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="episode-card">
+                    <div class="episode-image">
+                        <img src="../media/scirocco.webp" alt="Imagen del episodio">
+                    </div>
+                    <div class="episode-content">
+                        <h3>Scirocco</h3>
+                        <p class="episode-date">21 de marzo, 2025</p>
+                        <p class="episode-description">Victor Cepeda nos habla sobre su coche de sus sueños.</p>
+                        <div class="audio-player">
+                            <audio controls>
+                                <source src="../media/scirocco.mp3" type="audio/mpeg">
+                                Tu navegador no soporta el elemento de audio.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="episode-card">
+                    <div class="episode-image">
+                        <img src="../media/mercedes.jpg" alt="Imagen del episodio">
+                    </div>
+                    <div class="episode-content">
+                        <h3>Su coche</h3>
+                        <p class="episode-date">21 de marzo, 2025</p>
+                        <p class="episode-description">Victor Cepeda nos habla sobre su coche actual.</p>
+                        <div class="audio-player">
+                            <audio controls>
+                                <source src="../media/SuCoche.mp3" type="audio/mpeg">
+                                Tu navegador no soporta el elemento de audio.
+                            </audio>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>              
+    
+
+    <section id="production" class="production">
+        <div class="container">
+            <h2>Proceso de Producción</h2>
+            <div class="production-content">
+                <div class="production-image">
+                    <img src="../media/monlau.jpg" alt="Estudio de grabación">
+                </div>
+                <div class="production-text">
+                    <h3>Cómo creamos nuestro podcast</h3>
+                    <p>Nuestro proceso de producción incluye varios pasos para garantizar la mejor calidad de audio:</p>
+                    <ul>
+                        <li><i class="fas fa-microphone"></i> <strong>Grabación</strong>: Usamos Audacity para grabar nuestras voces con un micrófono.</li>
+                        <li><i class="fas fa-sliders-h"></i> <strong>Edición</strong>: Eliminamos ruidos de fondo y mejoramos la calidad del sonido.</li>
+                        <li><i class="fas fa-music"></i> <strong>Música</strong>: Añadimos música de fondo con licencia Creative Commons.</li>
+                        <li><i class="fas fa-file-audio"></i> <strong>Exportación</strong>: Optimizamos el audio en formato MP3 para su uso en la web.</li>
+                    </ul>
+                    <p>Todas nuestras herramientas:</p>
+                    <div class="tools">
+                        <span class="tool">Audacity</span>
+                        <span class="tool">FFmpeg</span>
+                        <span class="tool">Adobe Audition</span>
+                        <span class="tool">Rode NT-USB Mini</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contacto y Participación</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <h3>¿Quieres participar?</h3>
+                    <p>Envíanos tus sugerencias o participa en nuestro podcast.</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Correo electrónico</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="audio">Envía tu grabación (opcional)</label>
+                            <input type="file" id="audio" name="audio" accept="audio/*">
+                        </div>
+                        <button type="submit" class="btn">Enviar</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <h3>Síguenos</h3>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+                        <a href="https://x.com/?lang=es" class="social-link"><i class="fab fa-twitter"></i> Twitter</a>
+                        <a href="https://open.spotify.com/intl-es" class="social-link"><i class="fab fa-spotify"></i> Spotify</a>
+                        <a href="https://www.apple.com/es/apple-music/" class="social-link"><i class="fab fa-apple"></i> Apple Podcasts</a>
+                    </div>
+                    <div class="newsletter">
+                        <h4>Suscríbete a nuestro boletín</h4>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Tu correo electrónico">
+                            <button type="submit" class="btn">Suscribirse</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>SoundWaves</h2>
+                    <p>© 2025 SoundWaves Podcast. Todos los derechos reservados.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Inicio</a></li>
+                        <li><a href="#latest-episode">Episodios</a></li>
+                        <li><a href="#production">Producción</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-license">
+                    <h3>Licencia</h3>
+                    <p>Este sitio web y su contenido están bajo una licencia <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a>.</p>
+                    <img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png" alt="Licencia Creative Commons">
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
